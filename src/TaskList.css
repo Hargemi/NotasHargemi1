@@ -1,0 +1,13 @@
+.tasks-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 0.5rem;
+}
+
+.no-tasks-message {
+  color: white;
+  font-size: 2rem;
+  font-weight: bold;
+  text-align: center;
+  margin: 2rem 0;
+}

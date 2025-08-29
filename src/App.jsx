@@ -1,11 +1,11 @@
 import TaskList from "./components/TaskList";
-
 import TaskForm from "./components/TaskForm";
+import "./App.css";
 
 function App() {
   return (
-    <main className="bg-zinc-900 h-screen text-white">
-      <div className="container mx-auto p-10">
+    <main className="app-container">
+      <div className="app-content">
         <TaskForm />
         <TaskList />
       </div>
